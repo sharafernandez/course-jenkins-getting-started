@@ -23,7 +23,7 @@ pipeline {
                         body: "Please go to ${BUILD_URL} and verify the build", 
                         attachLog: true, 
                         compressLog: true, 
-                        to: "sharameriel@gmail.com",
+                        to: "test@jenkins",
                         recipientProviders: [upstreamDevelopers(), requestor()]
                 }
             }
